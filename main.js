@@ -1,6 +1,6 @@
 (function(){
     const spanEl = document.querySelector("main h2 span");
-    const txtArr = ['Web Publisher', 'Front-End Developer', 'Web UI Designer', 'UX Designer', 'Back-End Developer'];
+    const txtArr = ['웹개발~', '모바일 앱~', '인공지능!', '융합SW분야!','Iot 분야!'];
     let index = 0;
     let currentTxt = txtArr[index].split("");
     function writeTxt(){
@@ -14,7 +14,7 @@
     }
 
 
-    
+
     function deleteTxt(){
       currentTxt.pop();
       spanEl.textContent = currentTxt.join("");
